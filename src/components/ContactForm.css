@@ -1,0 +1,30 @@
+/* Style css pour le formulaire de contact et de la newsletter  */
+
+.contact{
+    max-width: 900px;
+    margin-left: 0px;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.contact__form input,
+.contact__form textarea,
+.contact__form button{
+    margin: 0.3rem 0 1rem 0;
+    /* padding: .3rem; */
+    background-color: #eaeaea;
+    border-radius: 30px; 
+}
+.contact__form button{
+    font-size: 1.2rem;
+    background-color: #de5254;
+    max-width: 200px;
+    color: #fff;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 100px;
+}
